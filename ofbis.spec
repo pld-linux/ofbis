@@ -1,12 +1,12 @@
 Summary:	Framebuffer library
 Summary(pl):	Bibliteka obs³uguj±ca framebuffer
 Name:		ofbis
-Version:	0.1.1
+Version:	0.2.0
 Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	ftp://ftp.nocrew.org/pub/osis/ofbis/%{name}-%{version}.tar.gz
-# Source0-md5:	51d7ca6ba662da4b2292186575204035
+# Source0-md5:	172a671629d505d377ca78ec30849f15
 URL:		http://osis.nocrew.org/ofbis/
 BuildRequires:	autoconf
 BuildRequires:	automake
