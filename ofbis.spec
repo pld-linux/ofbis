@@ -1,5 +1,5 @@
 Summary:	Framebuffer library
-Summary(pl):	Bibliteka obs³uguj±ca framebuffer
+Summary(pl):	Biblioteka obs³uguj±ca framebuffer
 Name:		ofbis
 Version:	0.2.0
 Release:	1
@@ -58,7 +58,8 @@ Statyczna biblioteka obs³uguj±ca framebuffer.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
