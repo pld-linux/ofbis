@@ -23,7 +23,7 @@ Biblioteka obs³uguj±ca framebuffer.
 Summary:	Header files for framebuffer library
 Summary(pl):	Pliki nag³ówkowe do biblioteki obs³uguj±cej framebuffer
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for framebuffer library.
@@ -35,7 +35,7 @@ Pliki nag³ówkowe do biblioteki obs³uguj±cej framebuffer.
 Summary:	Static framebuffer library
 Summary(pl):	Statyczna biblioteka obs³uguj±ca framebuffer
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static framebuffer library.
