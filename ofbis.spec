@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	ftp://ftp.nocrew.org/pub/osis/ofbis/%{name}-%{version}.tar.gz
+# Source0-md5:	51d7ca6ba662da4b2292186575204035
 URL:		http://osis.nocrew.org/ofbis/ 
 BuildRequires:	autoconf
 BuildRequires:	automake
