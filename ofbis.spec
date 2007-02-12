@@ -1,5 +1,5 @@
 Summary:	Framebuffer library
-Summary(pl):	Biblioteka obs≥uguj±ca framebuffer
+Summary(pl.UTF-8):   Biblioteka obs≈ÇugujƒÖca framebuffer
 Name:		ofbis
 Version:	0.2.0
 Release:	1
@@ -16,32 +16,32 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Framebuffer library.
 
-%description -l pl
-Biblioteka obs≥uguj±ca framebuffer.
+%description -l pl.UTF-8
+Biblioteka obs≈ÇugujƒÖca framebuffer.
 
 %package devel
 Summary:	Header files for framebuffer library
-Summary(pl):	Pliki nag≥Ûwkowe do biblioteki obs≥uguj±cej framebuffer
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe do biblioteki obs≈ÇugujƒÖcej framebuffer
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for framebuffer library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe do biblioteki obs≥uguj±cej framebuffer.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe do biblioteki obs≈ÇugujƒÖcej framebuffer.
 
 %package static
 Summary:	Static framebuffer library
-Summary(pl):	Statyczna biblioteka obs≥uguj±ca framebuffer
+Summary(pl.UTF-8):   Statyczna biblioteka obs≈ÇugujƒÖca framebuffer
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static framebuffer library.
 
-%description static -l pl
-Statyczna biblioteka obs≥uguj±ca framebuffer.
+%description static -l pl.UTF-8
+Statyczna biblioteka obs≈ÇugujƒÖca framebuffer.
 
 %prep
 %setup -q
