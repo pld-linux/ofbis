@@ -1,5 +1,5 @@
 Summary:	Framebuffer library
-Summary(pl.UTF-8):   Biblioteka obsługująca framebuffer
+Summary(pl.UTF-8):	Biblioteka obsługująca framebuffer
 Name:		ofbis
 Version:	0.2.0
 Release:	1
@@ -21,7 +21,7 @@ Biblioteka obsługująca framebuffer.
 
 %package devel
 Summary:	Header files for framebuffer library
-Summary(pl.UTF-8):   Pliki nagłówkowe do biblioteki obsługującej framebuffer
+Summary(pl.UTF-8):	Pliki nagłówkowe do biblioteki obsługującej framebuffer
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -33,7 +33,7 @@ Pliki nagłówkowe do biblioteki obsługującej framebuffer.
 
 %package static
 Summary:	Static framebuffer library
-Summary(pl.UTF-8):   Statyczna biblioteka obsługująca framebuffer
+Summary(pl.UTF-8):	Statyczna biblioteka obsługująca framebuffer
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
